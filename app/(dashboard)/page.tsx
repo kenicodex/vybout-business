@@ -8,7 +8,7 @@ import AISummary from '@/components/dashboard/AISummary'
 
 export default function DashboardPage() {
   return (
-    <div className="min-h-screen px-6 space-y-8">
+    <div className="min-h-screen bg-gray-50 space-y-8">
       <h1 className="text-2xl font-semibold">Business Insights</h1>
       <StatsGrid />
       <div className="grid lg:grid-cols-2 gap-8">
